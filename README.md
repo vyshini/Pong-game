@@ -34,3 +34,5 @@ Two players can play on the same computer using the keyboard.
 
 ```bash
 python main.py
+
+![Pong Screenshot](screenshot.png)
