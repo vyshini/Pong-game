@@ -32,7 +32,9 @@ Two players can play on the same computer using the keyboard.
 2. Open terminal in the project folder.  
 3. Run the game:
 
+![Pong Screenshot](screenshot.png)
+
 ```bash
 python main.py
 
-![Pong Screenshot](screenshot.png)
+
