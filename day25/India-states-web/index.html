@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>India States Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>India States Game</h1>
+    <div id="game-container">
+        <canvas id="mapCanvas" width="800" height="600"></canvas>
+
+        <!-- Timer and counter overlays -->
+        <div id="timer">Time: 180s</div>
+        <div id="counter">Guessed: 0/29</div>
+
+        <!-- Input area -->
+        <div id="input-area">
+            <input type="text" id="guessInput" placeholder="Enter state name" disabled>
+            <button id="guessBtn" disabled>Guess</button>
+        </div>
+
+        <!-- Start button -->
+        <button id="startBtn">Start Game</button>
+
+        <!-- Result area -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
